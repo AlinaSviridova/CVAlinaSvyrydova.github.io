@@ -2,11 +2,12 @@
 
 body {
     color: wheat;
-    background-image: url("img/conifer-desktop-wallpaper-fog-1287075.jpg");
+  background-image: url("img/conifer-desktop-wallpaper-fog-1287075.jpg");
+  background-size:cover;
     background-color: black;
    font-family: 'blackentina', sans-serif;
-  /*   font-family: 'Charmonman', cursive;
-    font-weight: bold;*/
+     font-family: 'Charmonman', cursive;
+    font-weight: bold;
     font-size: 22px;
     line-height: 1.5;
     width: 1366px;
@@ -21,10 +22,20 @@ body {
     padding-top: 0px;
 }
 
-.col-4
+.nav-item
 {
-
+    width: 200px;
+    margin-bottom: 60px;
+    background-color: #3E403F;
+    
+    
 }
+
+.nav {
+    margin-right: 80px;
+  
+}
+
 
 li{
     width: 500px;
@@ -59,6 +70,11 @@ button {
 
 .row {
     margin-left:40px;
+}
+
+.last {
+    margin-left: -120px;
+     width: 1300px;
 }
 
 /*  проверка присвоения разного цвета итд границ 
